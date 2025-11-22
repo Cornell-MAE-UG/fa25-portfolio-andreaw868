@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name>
+title: Andrea Wang
 ---
 
 ## About Me
@@ -9,8 +9,6 @@ title: <Your Name>
 ![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
 
  
-My name is {{ site.name }}, and I am [your pitch paragraph about your passions, knowledge and interestst.] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+My name is {{ site.name }}, and I am a current sophomore majoring in Mechanical Engineering, with a focus on Aerospace Engineering. From a young age, I've been drawn to flight, whether that be through air shows near my hometown of San Diego, CA, or going into deep dives on rocket launches. My passion for aerospace has influenced every part of my college experience. This semester, I am taking Intro to Aeronautics, my first non-required technical course. I am also a member of the airframe subteam on CUAir, a student-led project team that designs, builds, and tests a custom fixed-wing VTOL UAV. Last summer, I conducted research at the Cornell Space Structures Lab, harnessing buckling as means to achieve bistability in ultra-thin, ultra-lightweight composite structures for space applications. In my professional career, I hope to continue reaching for the stars.
 
 Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
