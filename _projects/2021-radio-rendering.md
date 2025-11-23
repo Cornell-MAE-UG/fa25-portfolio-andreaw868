@@ -1,25 +1,25 @@
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
-image: /assets/images/radio-machine-cad.jpg
+title: Heat Exchanger Lab
+description: Analysis of a Real-Life Thermodynamic System
+technologies: [Hand Calcs - Control Volume Analysis]
+image: /assets/images/heat_exchanger.jpg
 ---
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+<br style="clear: both;" />
+For this lab, I analyzed a heat exchanger, applying the concepts that I learned in ENGRD2210 (Thermodynamics). Using a control volume analysis, I performed hand calculations to compare the performance of the heat exchanger under two different setups: counter-flow and parallel.
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+Description of device: A heat exchanger is a thermodynamic device that transfers heat between two fluids at different temperatures flowing through separate channels to prevent mixing. Heat exchangers have a wide range of applications, including in HVAC systems to heat/cool buildings, cooling automotives, and in the Rankine cycle.
 
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+The schematics for both setups are illustrated below:
+![Schematics for setups]({{ "/assets/images/heat_exchanger_schematic.jpg" | relative_url }}){: .inline-image-l}
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+<br style="clear: both;" />
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+I then performed a control volume analysis on both setups to calculate the specific heat transfer rate.
+<p style="text-align:center;">
+  <img src="{{ '/assets/images/heat_exchanger_calcs.jpg' | relative_url }}" style="max-width:100%; height:auto;">
+</p>
 
-I was inspired by this old radio when I made this rendering:
+For the counter-flow setup, the specific heat transfer rate was 72.98 kJ/kg, versus the parallel setup, which had a specific heat transfer rate of 47.04 kJ/kg. This was consistent with my intuition; for a parallel setup, the temperature difference between the two fluids decreases as both fluids flow side-by-side through the heat exchanger, leading to less heat transfer overall. 
 
-![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
