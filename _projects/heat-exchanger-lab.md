@@ -4,6 +4,7 @@ title: Heat Exchanger Lab
 description: Analysis of a Real-Life Thermodynamic System
 technologies: [Hand Calcs - Control Volume Analysis]
 image: /assets/images/heat_exchanger.jpg
+permalink: /projects/heat-exchanger-lab/
 ---
 
 <br style="clear: both;" />
