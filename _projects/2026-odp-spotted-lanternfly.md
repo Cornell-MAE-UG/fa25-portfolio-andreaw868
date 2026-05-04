@@ -25,7 +25,7 @@ For the Open Design Project, we were challenged to design a mechanical solution 
 ---
 
 ### **Problem Statement**
-From *August to November*, spotted lanternflies (SLFs) mature into their adult form and migrate onto grape crops, with up to *400 insects per vine*. During mechanical harvesting, SLFs cling to the grapes and enter the harvester.  
+From August to November, spotted lanternflies (SLFs) mature into their adult form and migrate onto grape crops, with up to 400 insects per vine. During mechanical harvesting, SLFs cling to the grapes and enter the harvester.  
 
 There is currently **no mechanism to prevent SLFs from entering the harvest stream**. Even *one or two SLFs* can contaminate an entire batch, rendering it unsellable—resulting in **wasted resources and increased production costs**.
 
@@ -48,20 +48,18 @@ A vacuum system attached to the harvester removes SLFs from harvested grapes.
 
 **How it would be used:**
 - Attached to the collector system before the reservoir  
-- SLFs are vacuumed out  
-- Grape juice is filtered back into the system  
-- SLFs are separated into a waste container  
+- SLFs are sucked up, juice filtered back, and SLFs deposited into a separate bin/out of harvester  
 
 **Why it improves upon the status quo:**
-- Eliminates SLFs from harvested grapes  
-- Automates sorting—no manual separation required  
+- Remove the SLFs from the harvested grapes, so there are no SLFs in the final grape collection 
+- Automatic sorting between SLFs and grapes, no need for manual differentiation
 
 **End-of-semester proof-of-concept:**  
 A tested vacuum system capable of removing SLFs while avoiding grapes.
 
 **Key Risks:**
-- Calibrating *precise vacuum pressure* to target SLFs only  
-- Risk of removing *small grapes or juice*  
+- Finding precise vacuum pressure to only pick up SLFs
+- Smaller grapes and juice are at risk of being picked up
 
 **Planned Testing:**
 - Develop weight-accurate SLF and grape models  
@@ -72,18 +70,15 @@ A tested vacuum system capable of removing SLFs while avoiding grapes.
 ## **Concept B: SLF Removal via Compressed Air**
 
 **Description:**  
-A front-mounted attachment that detects SLFs and deploys compressed air to remove them *before harvesting begins*.
+A front-mounted attachment that detects SLFs and deploys compressed air to remove them before harvesting begins.
 
 **How it would be used:**
-- Mounted to the front of the harvester  
-- Detects SLFs on vines  
-- Deploys compressed air to dislodge them  
-- Repeats process along the row  
+- Attach mechanism to front of harvester
+- Approach grape vine, detect the presence of SLFs, stop and deploy compressed air until SLF is successfully removed and repeat 
 
 **Why it improves upon the status quo:**
-- Removes SLFs *before* they enter the harvesting system  
-- Fully integrated into the harvesting process  
-- Uses *low-cost, reusable compressed air*  
+- Remove SLFs before grapes are harvested, but doesn’t require an extra process to do so (part of harvesting process) 
+- Air is relatively cheap and reusable, compared to water
 
 **End-of-semester proof-of-concept:**  
 A mechanism capable of delivering targeted compressed air bursts, along with a mounting method for integration with a harvester.
