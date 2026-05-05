@@ -338,3 +338,13 @@ Additionally, the design is compact and can easily be integrated into a harveste
 
 **Total Cost:** **$112.86**
 
+---
+
+## References
+
+Barringer, Lawrence, and Claire M Ciafré. “Worldwide Feeding Host Plants of Spotted Lanternfly, with Significant Additions from North America.” *Environmental Entomology*, vol. 49, no. 5, 14 Aug. 2020, pp. 999–1011, https://doi.org/10.1093/ee/nvaa093.
+
+Ladin, Zachary S., et al. “Human-Mediated Dispersal Drives the Spread of the Spotted Lanternfly (Lycorma Delicatula).” *Scientific Reports*, vol. 13, no. 1, 19 Jan. 2023, p. 1098, www.nature.com/articles/s41598-022-25989-3, https://doi.org/10.1038/s41598-022-25989-3.
+
+“Spotted Lanternfly Management in Vineyards.” *Penn State Extension*, 10 Apr. 2025, extension.psu.edu/spotted-lanternfly-management-in-vineyards.
+
