@@ -214,8 +214,127 @@ The prototype was evaluated against the following criteria:
 - **[Mid Priority] Response Time**  
   Minimize delay between user input and air deployment (*target: ~10 seconds*)  
 
-## Final Client Report
-Placeholder for Final Client Report
+---
 
+## Final Client Pitch
 
+---
+
+## **Context and Problem Statement**
+As grape crops are harvested, spotted lanternflies (SLFs) that cling to the crops also enter the harvesters. There is currently no reliable mechanism to stop SLFs from entering the harvester, and even one or two SLFs can contaminate a batch—making it unsellable and increasing production costs.
+
+We focused on this stage of the process because it allows for the most control while minimizing disruption, since solutions can be directly attached to the harvester.
+
+---
+
+## **Design Summary**
+
+<div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+  <img src="/assets/images/ODP_FinalPrototype.jpg alt="Fully assembled" style="width: 45%; border-radius: 8px;">
+  <img src="/assets/images/ODP_FinalPrototype_Interior.png" alt="Interior view" style="width: 45%; border-radius: 8px;">
+</div>
+
+*Final Prototype: Compressed air canister mounted inside acrylic housing*
+
+As pictured above, this is a mechanism that releases a concentrated stream of air and has the ability to aim with a two-axis gimbal and blow SLF off of grape plants from its mount on the harvester. The compressed air allows for both more accurate aiming as well as a higher force acting on the SLF’s, as previously attempted methods indicate that general wind/air is not a useful deterrent. The implementation of the gimbal was for the purpose of being able to cover a larger area, since the compressed air has such a small affected area, as well as to damp any vibrations or sudden movements from the harvester.
+
+---
+
+## **Conclusion and Recommendation**
+
+Through testing and iteration, our prototype successfully:
+
+1. Compressed the trigger on the air canister through a 3D printed shaft, actuated with a handle. 
+2. Successfully blows off 3D printed “SLFs” weighing around 1 gram at distances of up to **2.5 ft**.
+3. Is actuated quickly; i.e. the duration between when the user first interacts with our mechanism (i.e. touching the crank) to when the SLF is blown off in an average time of **5 seconds.** 
+4. Has the ability to aim and is stabilized (from potential harvester vibrations) via a **two-axis gimbal**  
+
+Additionally, the design is compact and can easily be integrated into a harvester without disrupting the harvesting process or integrated into other larger mechanisms. We believe our design is promising and can be utilized along with other solutions to reduce the SLFs in the fields. 
+
+### **Remaining Challenges**
+- Gimbal and trigger actuation are separate systems, making it difficult for both processes to proceed at the same time (i.e. rotating an axis while cranking the shaft)  
+- Air canisters are not refillable and will require replacement
+- Risk of unintentionally removing grapes requires more testing
+
+### **Future Improvements**
+- Automate with motors and electronics instead of a hand crank
+- Replace disposable canister with refillable air system  
+- Add SLF detection via software integration (i.e. cameras, sensors)  
+
+---
+
+## **Design Features**
+
+### **Compressing Shaft**
+<div style="text-align: center;">
+  <img src="/assets/images/ODP_CompressingShaft.png" alt="Housing" style="width: 40%; border-radius: 8px;">
+</div>
+- **Material:** 3D Printed ABS  
+- **Purpose:** The shaft compresses the trigger on the compressed air canister to trigger the release of air through actuation by a crank handle.
+
+---
+
+### **Outer Housing**
+<div style="text-align: center;">
+  <img src="/assets/images/ODP_OuterHousing.png" alt="Housing" style="width: 40%; border-radius: 8px;">
+</div>
+
+- **Material:** Laser-cut acrylic  
+- **Purpose:**  Housing protects the compressed air canister while operation of the prototype and holds the air canister in place through a bracket. Features puzzle piece edges that allow for quick assembly, maintenance and iteration. 
+
+---
+
+### **Gimbal System**
+<div style="text-align: center;">
+  <img src="/assets/images/ODP_Gimbal.png" alt="Gimbal" style="width: 40%; border-radius: 8px;">
+</div>
+
+- **Material:** 3D Printed ABS  
+- **Purpose:**  Allows the prototype to aim and rotate about two axes and stabilizes the air canister when mounted on the harvester. 
+
+---
+
+## **Testing and Validation**
+
+### **Test 1: Removal Distance**
+<div style="text-align: center;">
+  <img src="/assets/images/ODP_DistanceTest.jpg" alt="Distance test" style="width: 80%; border-radius: 8px;">
+</div>
+
+**Test Process**: We created modelled SLFs with masking tape, weighing ~1g each and used the compressed air canister to blow them.  SLFs weigh an average of 0.3g, but have grip strength so we included a safety factor of 3​. 
+**Results**: Prototype successfully blows off 3D printed “SLFs” weighing around 1 gram at distances of up to 2.5 ft. This showed that our design can be successful while mounted on a harvester where it will target the infested grapevines from a distance.
+
+---
+
+### **Test 2: Trigger Force**
+<div style="text-align: center;">
+  <img src="/assets/images/ODP_Force_Test.jpg" alt="Force test" style="width: 50%; border-radius: 8px;">
+</div>
+
+**Test Process**: The purpose of this test is to verify what the necessary force is to ensure accurate selection of electrical actuation for future prototypes. We first utilized spring scale to measure the force that the 3D printed shaft must exert on the trigger. To release a small stream of air, ~25 N of force is needed. To fully depress the trigger, ~45 N of force is necessary. With our prototype, we measured the amount of force the 3D printed shaft exerted on the trigger of the compressed air canister. 
+**Results**: The 3D printed shaft successfully compresses the air canister with a force of 45N, successfully reaching our target compressive force. 
+
+---
+
+### **Test 3: Response Time**
+**Test Process**: We staged 5 trials of SLFs placed at a distance of 2.5 feet (the maximum range of the compressed air canister). For each trial, the time between the compression of the shaft and the SLFs being disrupted from their place was taken.
+**Results**: The average time for displacement of SLFs was 5.49 seconds. Compared to our target time of 10 seconds, this showed that our prototype was sufficiently efficient. Further improvements can be made to the efficiency with the implementation of electronics and SLF detection. 
+
+---
+
+## **Bill of Materials**
+
+| Source | Item | Description | Cost | Qty |
+|--------|------|------------|------|-----|
+| McMaster (7437K35) | Spray Duster | Compressed air source | $19.13 | 1 |
+| McMaster (5972K91) | Ball Bearings | Shaft + gimbal rotation | $2.95 | 8 |
+| McMaster (6547N15) | Crank Handle | Actuation | $24.87 | 1 |
+| McMaster (4634T34) | Aluminum Rod | Gimbal structure | $2.16 | 4 |
+| McMaster (6056N16) | Set Screw Collar | Shaft retention | $2.25 | 4 |
+| Cornell RPL | 3D Printed Shaft | Trigger system | $0.96 | 1 |
+| Cornell RPL | Acrylic Housing | Outer casing | $8.50 | 1 |
+| Cornell RPL | Gimbal Rings | Rotation system | $9.00 | 2 |
+| Cornell RPL | Gimbal Spacers | Stabilization | $0.05 | 4 |
+
+**Total Cost:** **$112.86**
 
