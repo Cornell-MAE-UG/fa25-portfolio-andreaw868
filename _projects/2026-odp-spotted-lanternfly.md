@@ -2,7 +2,7 @@
 layout: project
 title: Anti Spotted Lanternfly Device
 description: For my introduction to mechanical design class, my team designed a device to aid grape vineyards with the spotted lanterfly invasion, preventing this invasive species from contaminating grape harvests.
-technologies: Fusion 360, laser cutting, 3D printing
+technologies: Fusion 360, Laser Cutting, 3D Printing
 image: 
 ---
 
@@ -105,6 +105,14 @@ A mechanism capable of delivering targeted compressed air bursts, along with a m
    → Could inform alternative removal strategies (e.g., pesticides)  
 
 ## Functional Prototype
+### CAD Model:
+
+<div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+  <img src="/assets/images/ODPv1_FrontView.png" alt="Front View" style="width: 30%; border-radius: 8px;">
+  <img src="/assets/images/ODPv1_IsometricView.png.png" alt="Isometric View" style="width: 30%; border-radius: 8px;">
+  <img src="/assets/images/ODPv1_SideView.png" alt="Side View" style="width: 30%; border-radius: 8px;">
+</div>
+
 ### **Design Documentation**
 
 #### **Key Components**
@@ -116,6 +124,11 @@ A mechanism capable of delivering targeted compressed air bursts, along with a m
 - **Custom Fabricated Parts:**  
   - 3D-printed shaft + trigger compressor  
   - 3D-printed housing and mounting bracket 
+
+<figure style="text-align: center;">
+  <img src="/assets/images/ODPv1_Components_Assembly_Sketch.jpg alt="Sketch of components" style="width: 100%; height: auto; border-radius: 8px;">
+  <figcaption><em>Sketch of components and assembly</em></figcaption>
+</figure>
 
 *Note:* Due to fabrication delays, the housing ended up being prototyped using in-house wood scraps, assembled with wood glue, superglue, and epoxy.
 
