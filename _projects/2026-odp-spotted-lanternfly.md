@@ -216,7 +216,7 @@ The prototype was evaluated against the following criteria:
 
 ---
 
-## Final Client Pitch
+## Final Client Report
 
 ---
 
