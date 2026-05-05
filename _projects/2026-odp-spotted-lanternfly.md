@@ -126,7 +126,7 @@ A mechanism capable of delivering targeted compressed air bursts, along with a m
   - 3D-printed housing and mounting bracket 
 
 <figure style="text-align: center;">
-  <img src="/assets/images/ODPv1_Components_Assembly_Sketch.jpg alt="Sketch of components" style="width: 100%; height: auto; border-radius: 8px;">
+  <img src="/assets/images/ODPv1_Components_Assembly_Sketch.jpg" alt="Sketch of components" style="width: 100%; height: auto; border-radius: 8px;">
   <figcaption><em>Sketch of components and assembly</em></figcaption>
 </figure>
 
