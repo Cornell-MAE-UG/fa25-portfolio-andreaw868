@@ -108,9 +108,9 @@ A mechanism capable of delivering targeted compressed air bursts, along with a m
 ### CAD Model:
 
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-  <img src="/assets/images/ODPv1_FrontView.png" alt="Front View" style="width: 30%; border-radius: 8px;">
-  <img src="/assets/images/ODPv1_IsometricView.png.png" alt="Isometric View" style="width: 30%; border-radius: 8px;">
-  <img src="/assets/images/ODPv1_SideView.png" alt="Side View" style="width: 30%; border-radius: 8px;">
+  <img src="{{ site.baseurl }}/assets/images/ODPv1_FrontView.png" alt="Front View" style="width: 30%; border-radius: 8px;">
+  <img src="{{ site.baseurl }}/assets/images/ODPv1_IsometricView.png.png" alt="Isometric View" style="width: 30%; border-radius: 8px;">
+  <img src="{{ site.baseurl }}/assets/images/ODPv1_SideView.png" alt="Side View" style="width: 30%; border-radius: 8px;">
 </div>
 
 ### **Design Documentation**
@@ -126,7 +126,7 @@ A mechanism capable of delivering targeted compressed air bursts, along with a m
   - 3D-printed housing and mounting bracket 
 
 <figure style="text-align: center;">
-  <img src="/assets/images/ODPv1_Components_Assembly_Sketch.jpg" alt="Sketch of components" style="width: 100%; height: auto; border-radius: 8px;">
+  <img src="{{ site.baseurl }}/assets/images/ODPv1_Components_Assembly_Sketch.jpg" alt="Sketch of components" style="width: 100%; height: auto; border-radius: 8px;">
   <figcaption><em>Sketch of components and assembly</em></figcaption>
 </figure>
 
@@ -230,8 +230,8 @@ We focused on this stage of the process because it allows for the most control w
 ## **Design Summary**
 
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-  <img src="/assets/images/ODP_FinalPrototype.jpg alt="Fully assembled" style="width: 45%; border-radius: 8px;">
-  <img src="/assets/images/ODP_FinalPrototype_Interior.png" alt="Interior view" style="width: 45%; border-radius: 8px;">
+  <img src="{{ site.baseurl }}/assets/images/ODP_FinalPrototype.jpg" alt="Fully assembled" style="width: 45%; border-radius: 8px;">
+  <img src="{{ site.baseurl }}/assets/images/ODP_FinalPrototype_Interior.png" alt="Interior view" style="width: 45%; border-radius: 8px;">
 </div>
 
 *Final Prototype: Compressed air canister mounted inside acrylic housing*
@@ -267,7 +267,7 @@ Additionally, the design is compact and can easily be integrated into a harveste
 
 ### **Compressing Shaft**
 <div style="text-align: center;">
-  <img src="/assets/images/ODP_CompressingShaft.png" alt="Housing" style="width: 40%; border-radius: 8px;">
+  <img src="{{ site.baseurl }}/assets/images/ODP_CompressingShaft.png" alt="Housing" style="width: 40%; border-radius: 8px;">
 </div>
 - **Material:** 3D Printed ABS  
 - **Purpose:** The shaft compresses the trigger on the compressed air canister to trigger the release of air through actuation by a crank handle.
@@ -276,7 +276,7 @@ Additionally, the design is compact and can easily be integrated into a harveste
 
 ### **Outer Housing**
 <div style="text-align: center;">
-  <img src="/assets/images/ODP_OuterHousing.png" alt="Housing" style="width: 40%; border-radius: 8px;">
+  <img src="{{ site.baseurl }}/assets/images/ODP_OuterHousing.png" alt="Housing" style="width: 40%; border-radius: 8px;">
 </div>
 
 - **Material:** Laser-cut acrylic  
@@ -286,7 +286,7 @@ Additionally, the design is compact and can easily be integrated into a harveste
 
 ### **Gimbal System**
 <div style="text-align: center;">
-  <img src="/assets/images/ODP_Gimbal.png" alt="Gimbal" style="width: 40%; border-radius: 8px;">
+  <img src="{{ site.baseurl }}/assets/images/ODP_Gimbal.png" alt="Gimbal" style="width: 40%; border-radius: 8px;">
 </div>
 
 - **Material:** 3D Printed ABS  
@@ -298,7 +298,7 @@ Additionally, the design is compact and can easily be integrated into a harveste
 
 ### **Test 1: Removal Distance**
 <div style="text-align: center;">
-  <img src="/assets/images/ODP_DistanceTest.jpg" alt="Distance test" style="width: 80%; border-radius: 8px;">
+  <img src="{{ site.baseurl }}/assets/images/ODP_DistanceTest.jpg" alt="Distance test" style="width: 80%; border-radius: 8px;">
 </div>
 
 **Test Process**: We created modelled SLFs with masking tape, weighing ~1g each and used the compressed air canister to blow them.  SLFs weigh an average of 0.3g, but have grip strength so we included a safety factor of 3​. 
@@ -308,7 +308,7 @@ Additionally, the design is compact and can easily be integrated into a harveste
 
 ### **Test 2: Trigger Force**
 <div style="text-align: center;">
-  <img src="/assets/images/ODP_Force_Test.jpg" alt="Force test" style="width: 50%; border-radius: 8px;">
+  <img src="{{ site.baseurl }}/assets/images/ODP_Force_Test.jpg" alt="Force test" style="width: 50%; border-radius: 8px;">
 </div>
 
 **Test Process**: The purpose of this test is to verify what the necessary force is to ensure accurate selection of electrical actuation for future prototypes. We first utilized spring scale to measure the force that the 3D printed shaft must exert on the trigger. To release a small stream of air, ~25 N of force is needed. To fully depress the trigger, ~45 N of force is necessary. With our prototype, we measured the amount of force the 3D printed shaft exerted on the trigger of the compressed air canister. 
