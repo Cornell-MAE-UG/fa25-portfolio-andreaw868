@@ -109,7 +109,7 @@ A mechanism capable of delivering targeted compressed air bursts, along with a m
 
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
   <img src="{{ site.baseurl }}/assets/images/ODPv1_FrontView.png" alt="Front View" style="width: 30%; border-radius: 8px;">
-  <img src="{{ site.baseurl }}/assets/images/ODPv1_IsometricView.png.png" alt="Isometric View" style="width: 30%; border-radius: 8px;">
+  <img src="{{ site.baseurl }}/assets/images/ODPv1_IsometricView.png" alt="Isometric View" style="width: 30%; border-radius: 8px;">
   <img src="{{ site.baseurl }}/assets/images/ODPv1_SideView.png" alt="Side View" style="width: 30%; border-radius: 8px;">
 </div>
 
@@ -127,7 +127,7 @@ A mechanism capable of delivering targeted compressed air bursts, along with a m
 
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/images/ODPv1_Components_Assembly_Sketch.jpg" alt="Sketch of components" style="width: 100%; height: auto; border-radius: 8px;">
-  <figcaption><em>Sketch of components and assembly</em></figcaption>
+  <figcaption><em>Sketch of components</em></figcaption>
 </figure>
 
 *Note:* Due to fabrication delays, the housing ended up being prototyped using in-house wood scraps, assembled with wood glue, superglue, and epoxy.
@@ -234,7 +234,7 @@ We focused on this stage of the process because it allows for the most control w
   <img src="{{ site.baseurl }}/assets/images/ODP_FinalPrototype_Interior.png" alt="Interior view" style="width: 45%; border-radius: 8px;">
 </div>
 
-*Final Prototype: Compressed air canister mounted inside acrylic housing*
+*Left: Final prototype; Right: Interior view of compressed air canister mounted inside acrylic housing*
 
 As pictured above, this is a mechanism that releases a concentrated stream of air and has the ability to aim with a two-axis gimbal and blow SLF off of grape plants from its mount on the harvester. The compressed air allows for both more accurate aiming as well as a higher force acting on the SLF’s, as previously attempted methods indicate that general wind/air is not a useful deterrent. The implementation of the gimbal was for the purpose of being able to cover a larger area, since the compressed air has such a small affected area, as well as to damp any vibrations or sudden movements from the harvester.
 
