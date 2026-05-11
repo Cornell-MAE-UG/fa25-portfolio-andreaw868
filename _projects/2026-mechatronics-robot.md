@@ -3,7 +3,7 @@ layout: project
 title: Mechatronics Robot
 description: I designed and coded a small robot to collect as many cubes in a 1-minute 1v1 against an opposing robot.
 technologies: Arduino (C++ Programming), SolidWorks
-image: /assets/image/Mechatronics_Robot.jpeg
+image: /assets/images/Mechatronics_Robot.jpeg
 ---
 
 The objective of this project was to design, wire, and code a robot to collect as many cubes in a one-minute 1v1 against an opposing robot in a specified arena. Out of 62 teams, our robot placed 4th overall!
